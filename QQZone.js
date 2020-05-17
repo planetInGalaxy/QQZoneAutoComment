@@ -4,7 +4,7 @@ function renovate(){//刷新
 }
 
 function autoComment(){//自动评论
-        var num=Math.floor(Math.random()*30);
+        var num=Math.floor(Math.random()*28);
         var isLike=document.getElementsByClassName("item qz_like_btn_v3 ")[0];
             if(isLike.attributes[6].value=='like'){//遇到未点赞的说说就点赞,评论
                 isLike.firstChild.click();//点赞
