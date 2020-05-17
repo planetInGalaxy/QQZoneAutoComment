@@ -50,5 +50,6 @@ var words=['月光还是少年的月光，九州一色还是李白的霜。',
 '祝你今天愉快，你明天的愉快留着我明天再祝。'
 ]
 
-var time=prompt("请填写刷新时间(s)")*1000
+var time=prompt("请填写刷新时间(s)","60")*1000
 setInterval(auto,time);
+
